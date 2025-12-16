@@ -1,0 +1,40 @@
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 1rem;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 450px;
+}
+
+.error-banner {
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  background: #fee;
+  color: #c33;
+  border: 1px solid #fcc;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.auth-switch {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: white;
+}
+
+.auth-switch a {
+  color: white;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.auth-switch a:hover {
+  opacity: 0.9;
+}

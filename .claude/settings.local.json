@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__odin-project-react__list_directory",
+      "mcp__odin-project-react__read_text_file",
+      "Bash(find:*)",
+      "mcp__odin-project-react__read_multiple_files",
+      "mcp__odin-project-react__directory_tree",
+      "mcp__odin-project-react__list_allowed_directories",
+      "Bash(cat:*)",
+      "Bash(npm test:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "odin-project-react"
+  ]
+}
